@@ -11,12 +11,3 @@ Dataset_BUSI_with_GT/
 |-- malignant/
 |-- normal/
 
-### Combining Masks
-
-To facilitate preprocessing, you can use `combine_masks.py` to merge the masks associated with each image. Run the following command:
-
-```bash
-python combine_masks.py
-```
-
-This script will combine the masks for images that have two separate masks and store the combined masks in the data folder.
